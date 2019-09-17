@@ -51,7 +51,7 @@
     display: table;
 }
 .site-header .main-navigation a{
-     padding: 1.5em 1.50em;
+      padding: 20px 30px;
     color: #fff;
        -webkit-transition: all .2s ease-in-out;
     -moz-transition:    all .2s ease-in-out;
@@ -60,6 +60,7 @@
     transition:         all .2s ease-in-out;
         font-size: 16px;
     text-transform: uppercase;
+    
 }
 
 .custom-header{
@@ -87,8 +88,8 @@
     font-size: 18px;
     color: #FFFFFF;
     position: absolute;
-    top: 19px;
-    left: -5px;
+        top: 18px;
+    left: 6px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
@@ -98,8 +99,8 @@
     font-size: 18px;
     color: #FFFFFF;
     position: absolute;
-     top: 19px;
-    left: -5px;
+        top: 18px;
+    left: 6px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
@@ -120,8 +121,8 @@
     font-size: 18px;
     color: #FFFFFF;
     position: absolute;
-     top: 19px;
-    left: -5px;
+        top: 18px;
+    left: 6px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
@@ -131,8 +132,8 @@
     font-size: 18px;
     color: #FFFFFF;
     position: absolute;
-   top: 19px;
-    left: -5px;
+      top: 18px;
+    left: 6px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
