@@ -72,3 +72,6 @@
 .custom-header{
 	margin-bottom: 0 !important;
 }
+.site-header .navigation-top .sub-menu a{
+	color: #222;
+}
