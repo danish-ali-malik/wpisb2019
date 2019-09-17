@@ -58,6 +58,8 @@
     -o-transition:      all .2s ease-in-out;
     -ms-transition:     all .2s ease-in-out;
     transition:         all .2s ease-in-out;
+        font-size: 16px;
+    text-transform: uppercase;
 }
 
 .custom-header{
@@ -85,7 +87,7 @@
     font-size: 18px;
     color: #FFFFFF;
     position: absolute;
-    top: 10px;
+    top: 19px;
     left: -5px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
@@ -96,7 +98,7 @@
     font-size: 18px;
     color: #FFFFFF;
     position: absolute;
-    top: 10px;
+     top: 19px;
     left: -5px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
@@ -113,35 +115,24 @@
     -webkit-font-smoothing: antialiased;
 } */
 #top-menu > li:nth-child(3) > a:before {
-    content: "\f487";
+    content: "\f307";
     font-family: Dashicons;
     font-size: 18px;
     color: #FFFFFF;
     position: absolute;
-    top: 10px;
+     top: 19px;
     left: -5px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
 #top-menu > li:nth-child(4) > a:before {
-    content: "\f488";
+    content: "\f125";
     font-family: Dashicons;
     font-size: 18px;
     color: #FFFFFF;
     position: absolute;
-    top: 10px;
+   top: 19px;
     left: -5px;
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
-}
-#top-menu > li:last-child:before {
-    content: "\f486";
-    font-family: Dashicons;
-    font-size: 18px;
-    color: #7ABA7A;
-    position: absolute;
-    top: 10px;
-    left: 27px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
