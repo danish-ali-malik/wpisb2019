@@ -69,3 +69,6 @@
     -ms-transition:     all .2s ease-in-out;
     transition:         all .2s ease-in-out;
 }
+.custom-header{
+	margin-bottom: 0 !important;
+}
