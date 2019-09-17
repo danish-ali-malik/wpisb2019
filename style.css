@@ -36,3 +36,36 @@
 .site-header .menu-scroll-down{
 	display: none;
 }
+/* Navigation */
+.site-header .navigation-top{
+    position: relative;
+    background: #2ab220;
+    border: none;
+}
+.site-header .wrap{
+	    padding:0px;
+}
+.site-header #site-navigation{
+    float: none;
+    margin: 0 auto;
+    display: table;
+}
+.site-header .main-navigation a{
+     padding: 1.5em 1.50em;
+    color: #fff;
+       -webkit-transition: all .2s ease-in-out;
+    -moz-transition:    all .2s ease-in-out;
+    -o-transition:      all .2s ease-in-out;
+    -ms-transition:     all .2s ease-in-out;
+    transition:         all .2s ease-in-out;
+}
+.site-header .main-navigation a:hover
+{
+	    color: #fff;
+    background-color: #001d38;
+	   -webkit-transition: all .2s ease-in-out;
+    -moz-transition:    all .2s ease-in-out;
+    -o-transition:      all .2s ease-in-out;
+    -ms-transition:     all .2s ease-in-out;
+    transition:         all .2s ease-in-out;
+}
