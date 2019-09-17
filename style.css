@@ -13,13 +13,13 @@
     text-align: center;
 }
 .home .custom-logo-link img {
-    max-height: 270px !important;
+ max-height: 200px !important;
 }
 .home .site-title {
-    font-size: 60px;
+  font-size: 45px;
 }
 .home .site-description {
-    font-size: 48px;
+    font-size: 40px;
 }
 .custom-header {
     position: relative;
@@ -29,7 +29,7 @@
     top: 0;
     left: 0;
     content: "";
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .3);
     height: 100%;
     width: 100%;
 }
