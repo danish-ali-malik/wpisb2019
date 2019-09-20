@@ -137,3 +137,6 @@
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
+.home .content-area .entry-header .entry-title{
+        font-size: 30px;
+}
