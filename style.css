@@ -21,6 +21,9 @@
 .home .site-description {
     font-size: 40px;
 }
+.home .site-description::after{
+    content: 'Buy Tickets';
+}
 .custom-header {
     position: relative;
 }
