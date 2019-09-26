@@ -20,9 +20,19 @@
 }
 .home .site-description {
     font-size: 40px;
+    position: relative;
+    opacity: 1 !important;    
 }
 .home .site-description::after{
-    content: 'Buy Tickets';
+    content: '<a href="https://2018.islamabad.wordcamp.org/">Buy Tickets</a>';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 60px;
+    font-size: 25px;
+    background: #2ab220;
+    width: 30%;
 }
 .custom-header {
     position: relative;
