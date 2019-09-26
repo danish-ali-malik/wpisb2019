@@ -165,7 +165,7 @@ font-size: 17px;
     font-style: normal;
     text-align: center;
 }
-.single .entry-meta{
+.single .entry-meta, .single .entry-footer, .single .post-navigation{
     display: none;
 }
 .single .entry-title{
