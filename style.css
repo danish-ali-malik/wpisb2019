@@ -197,3 +197,21 @@ html body .contact-form label{
 .entry-title{
      color: #29b220;
 }
+.search-form input[type="search"]{
+border-color: #29b220;
+}
+.search-form .search-submit{
+      background: #29b220;  
+}
+h2.widget-title{
+    color: #29b220;
+    text-align: center;
+    font-weight: normal;
+    border-bottom: 2px dashed #29b220;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 0px !important;
+}
+.widget ul li, .widget ol li{
+    border-top:0px; 
+}
