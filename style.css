@@ -231,14 +231,18 @@ h2.widget-title{
     box-shadow: 0 0 40px 0 rgba(0,0,0,0.1);
     padding: 25px 20px;
     border-radius: 7px;
+    margin-bottom: 40px;
 }
 .page-slug-speakers .wordcamp-speakers .wordcamp-block__item-title{
-        text-align: center;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+    display: table;
     font-size: 27px;
     text-decoration: none;
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 .page-slug-speakers .wordcamp-speakers .wordcamp-block__item-title a, .page-slug-speakers .wordcamp-speakers{
     text-decoration: none;
@@ -248,6 +252,18 @@ h2.widget-title{
 float: left;
 margin-right: 12px;
 }
+.page-slug-speakers .wordcamp-speakers .wordcamp-image__avatar-container img{
+    border-radius: 50%;
+    transition: all ease-in-out .5s;
+}
+.page-slug-speakers .wordcamp-speakers .wordcamp-image__avatar-container:hover img{
+ border-radius: 10%;
+ transition: all ease-in-out .5s;
+}
+.page-slug-speakers .wordcamp-speakers .wordcamp-image__avatar-container a{
+        text-decoration: none;
+    box-shadow: none;
+}
 .page-slug-speakers .wordcamp-speakers .wordcamp-speakers__content{
 font-size: 14px;
     color: #555d66;
@@ -256,17 +272,26 @@ font-size: 14px;
     margin-bottom: 0;
 }
 .page-slug-speakers .entry-header{
-        margin-bottom: 0;
+        margin-bottom: 0  !important;
 }
 .page-slug-speakers .entry-header h1{
-        font-size: 40px;
-    font-weight: bold;
-    color: #29b220;
+        font-size: 40px !important;
+    font-weight: bold !important;
+    color: #29b220 !important;
     margin-bottom: 0;
 }
 .page-slug-speakers .entry-content h3{
         font-size: 19px;
 }
 .page-slug-speakers .content-area{
-max-width: 90%;
+max-width: 90% !important;
+}
+.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__postnth-child(5n+1) .wordcamp-block__item-title a{
+color: #F5876E;
+}
+.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__postnth-child(5n+2) .wordcamp-block__item-title a{
+color: #29b220;
+}
+.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__postnth-child(5n+3) .wordcamp-block__item-title a{
+color: #61A8DC;
 }
