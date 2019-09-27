@@ -169,9 +169,9 @@ font-size: 17px;
     display: none;
 }
 .single .entry-title, .page .entry-title{
-    font-size: 40px;
-    font-weight: bold;
-    color: #29b220;
+    font-size: 40px !important;
+    font-weight: bold !important;
+    color: #29b220 !important;
 }
 .single .wp-block-image{
         margin: 0;
