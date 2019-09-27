@@ -309,7 +309,13 @@ float: left;
   counter-increment: my-awesome-counter;
 }
 .postid-4 ol li::before {
-  content: counter(my-awesome-counter) ". ";
-  color: red;
-  font-weight: bold;
+ content: counter(my-awesome-counter);
+    color: red;
+    background: #2ab220;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
 }
