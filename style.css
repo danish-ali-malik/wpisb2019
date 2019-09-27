@@ -180,7 +180,7 @@ font-size: 17px;
     font-size: 14px;
         color: #555d66;
 }
-html body .contact-form input[type=email], .contact-form input[type=tel], .contact-form input[type=text], .contact-form input[type=url]{
+html body .contact-form input[type=email], .contact-form input[type=tel], .contact-form input[type=text], .contact-form input[type=url], .contact-form select{
     width: 100% !important;
 }
 html body .contact-form label{
