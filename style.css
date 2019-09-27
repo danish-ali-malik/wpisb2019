@@ -295,3 +295,8 @@ color: #29b220;
 .page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post:nth-child(5n+3) .wordcamp-block__item-title a{
 color: #61A8DC;
 }
+.single-wcb_speaker .speaker-avatar img {
+float: left;
+    margin-right: 12px;
+    border-radius: 10%;
+}
