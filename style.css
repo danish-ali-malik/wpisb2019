@@ -304,3 +304,6 @@ float: left;
 .postid-4 .entry-content ul {
   padding-left: 18px;
 }
+.postid-4 .entry-content ul li{
+        line-height: 31px;
+}
