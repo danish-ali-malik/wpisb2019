@@ -215,3 +215,6 @@ h2.widget-title{
 .widget ul li, .widget ol li{
     border-top:0px; 
 }
+.postid-5 .wp-block-image img:hover{
+    opacity: .9;
+}
