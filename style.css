@@ -215,10 +215,10 @@ h2.widget-title{
 .widget ul li, .widget ol li{
     border-top:0px; 
 }
-.postid-5 .wp-block-image img{
+.postid-5 .wp-block-image img, .postid-4 .wp-block-image img{
     transition: all ease-in-out .5s;
 }
-.postid-5 .wp-block-image img:hover{
+.postid-5 .wp-block-image img:hover, .postid-4 .wp-block-image img:hover{
     opacity: .9;
     transition: all ease-in-out .5s;
 }
@@ -299,4 +299,17 @@ color: #61A8DC;
 float: left;
     margin-right: 12px;
     border-radius: 10%;
+}
+
+.postid-4 ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+.postid-4 ol li {
+  counter-increment: my-awesome-counter;
+}
+.postid-4 ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  color: red;
+  font-weight: bold;
 }
