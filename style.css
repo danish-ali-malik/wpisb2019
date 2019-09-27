@@ -186,9 +186,9 @@ html body .contact-form input[type=email], .contact-form input[type=tel], .conta
 html body .contact-form label{
     margin-bottom: .50em !important;
 }
-.contact-submit button{background: #29b220;
+.contact-submit button, .subscribe-submit button{background: #29b220;
     font-weight: normal;    padding: 12px 40px;}
-.contact-submit button:hover{
+.contact-submit button:hover, .subscribe-submit button:hover{
     opacity: .8;
 }  
 .single  h2{
