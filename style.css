@@ -228,7 +228,7 @@ h2.widget-title{
 .page-slug-speakers .wordcamp-speakers{
     margin-top: 50px;
 }
-.page-slug-speakers .wordcamp-speakers li {
+.page-slug-speakers .wordcamp-speakers li, .wordcamp-post-list .wordcamp-post-list__post {
     float: left;
     width: 100%;
     box-shadow: 0 0 40px 0 rgba(0,0,0,0.1);
@@ -236,7 +236,7 @@ h2.widget-title{
     border-radius: 7px;
     margin-bottom: 40px;
 }
-.page-slug-speakers .wordcamp-speakers .wordcamp-block__item-title{
+.page-slug-speakers .wordcamp-speakers .wordcamp-block__item-title, .wordcamp-post-list .wordcamp-post-list__post .wordcamp-organizers__title{
     text-align: center;
     float: none;
     margin: 0 auto;
@@ -251,15 +251,15 @@ h2.widget-title{
     text-decoration: none;
     box-shadow: none;
 }
-.page-slug-speakers .wordcamp-speakers .wordcamp-image__avatar-container{
+.page-slug-speakers .wordcamp-speakers .wordcamp-image__avatar-container, .wordcamp-post-list .wordcamp-post-list__post .wordcamp-image__avatar-container{
 float: left;
 margin-right: 12px;
 }
-.page-slug-speakers .wordcamp-speakers .wordcamp-image__avatar-container img{
+.page-slug-speakers .wordcamp-speakers .wordcamp-image__avatar-container img, .wordcamp-post-list .wordcamp-post-list__post .wordcamp-image__avatar-container img{
     border-radius: 10%;
     transition: all ease-in-out .5s;
 }
-.page-slug-speakers .wordcamp-speakers .wordcamp-image__avatar-container:hover img, .tix-attendee-list li img:hover{
+.page-slug-speakers .wordcamp-speakers .wordcamp-image__avatar-container:hover img, .tix-attendee-list li img:hover, .wordcamp-post-list .wordcamp-post-list__post .wordcamp-image__avatar-container img:hover{
  border-radius: 0%;
  transition: all ease-in-out .5s;
 }
@@ -267,7 +267,7 @@ margin-right: 12px;
         text-decoration: none;
     box-shadow: none;
 }
-.page-slug-speakers .wordcamp-speakers .wordcamp-speakers__content{
+.page-slug-speakers .wordcamp-speakers .wordcamp-speakers__content, .wordcamp-post-list .wordcamp-post-list__post .wordcamp-block__item-content{
 font-size: 14px;
     color: #555d66;
 }
@@ -289,13 +289,13 @@ font-size: 14px;
 /*.page-slug-speakers .content-area{
 max-width: 90% !important;
 }*/
-.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post:nth-child(5n+1) .wordcamp-block__item-title a, .tix_tickets_table tbody tr:nth-child(5n+1) .tix-ticket-title{
+.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post:nth-child(5n+1) .wordcamp-block__item-title a, .tix_tickets_table tbody tr:nth-child(5n+1) .tix-ticket-title, .wordcamp-post-list .wordcamp-post-list__post:nth-child(5n+1) .wordcamp-organizers__title{
 color: #F5876E;
 }
-.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post:nth-child(5n+2) .wordcamp-block__item-title a, .tix_tickets_table tbody tr:nth-child(5n+2) .tix-ticket-title{
+.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post:nth-child(5n+2) .wordcamp-block__item-title a, .tix_tickets_table tbody tr:nth-child(5n+2) .tix-ticket-title, .wordcamp-post-list .wordcamp-post-list__post:nth-child(5n+2) .wordcamp-organizers__title{
 color: #29b220;
 }
-.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post:nth-child(5n+3) .wordcamp-block__item-title a, .tix_tickets_table tbody tr:nth-child(5n+3) .tix-ticket-title{
+.page-slug-speakers .wordcamp-speakers .wordcamp-post-list__post:nth-child(5n+3) .wordcamp-block__item-title a, .tix_tickets_table tbody tr:nth-child(5n+3) .tix-ticket-title, .wordcamp-post-list .wordcamp-post-list__post:nth-child(5n+3) .wordcamp-organizers__title{
 color: #61A8DC;
 }
 .single-wcb_speaker .speaker-avatar img {
