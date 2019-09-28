@@ -340,8 +340,21 @@ font-size: 16px !important;
     border-color: #29b220;
 }
 .tix_tickets_table tbody tr td{
-        padding: 0.8em;
+       padding: .8em;
+    font-size: 14px;
+    padding-left: 0;
+    line-height: 24px;
+}
+.tix_tickets_table tbody tr td .tix-ticket-title{
+    font-size: 18px;
+    padding-bottom: 8px;
+    float: left;
+    width: 100%;
 }
 .tix_tickets_table tbody tr td select{
         width: 100%;
+}
+.tix_tickets_table tbody tr td ul{
+        line-height: 30px;
+    margin-left: 17px;
 }
