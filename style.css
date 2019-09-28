@@ -254,6 +254,7 @@ h2.widget-title{
 .page-slug-speakers .wordcamp-speakers .wordcamp-image__avatar-container, .wordcamp-post-list .wordcamp-post-list__post .wordcamp-image__avatar-container{
 float: left;
 margin-right: 12px;
+    margin-top: -56px;
 }
 .page-slug-speakers .wordcamp-speakers .wordcamp-image__avatar-container img, .wordcamp-post-list .wordcamp-post-list__post .wordcamp-image__avatar-container img{
     border-radius: 10%;
