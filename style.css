@@ -459,7 +459,7 @@ width: 14%;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 0;
-    z-index: 10;
+    z-index: 2;
 }
 
 .wcorg-sponsors h2:before {
