@@ -408,3 +408,23 @@ width: 14%;
 .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-diamond .wcorg-sponsor .wcorg-sponsor-description img:hover, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-silver .wcorg-sponsor .wcorg-sponsor-description img:hover, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor .wcorg-sponsor-description img:hover{
     border-color: #29b220;
 }
+
+/* Event Buttons */
+.event-buttons {
+    list-style-type: none;
+}
+.event-buttons li {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #2ab220;
+    border-radius: 5px;
+    text-align: center;
+}
+.event-buttons li .eb-icon {
+    display: block;
+    font-size: 44px;
+}
+.event-buttons li .eb-title {
+    display: block;
+}
