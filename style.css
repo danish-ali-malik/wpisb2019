@@ -151,7 +151,21 @@
     -webkit-font-smoothing: antialiased;
 }
 .home .content-area .entry-header .entry-title{
-        font-size: 30px;
+    font-size: 30px;
+}
+.home .panel-content .entry-header .entry-title {
+    position: relative;
+    font-size: 28px !important;
+    text-align: center;
+}
+.home .panel-content .entry-header .entry-title:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 3px;
+    background: #29b220;
 }
 .home .entry-content > p + .what-to-expect {
     margin-top: 50px;
