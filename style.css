@@ -369,3 +369,39 @@ font-size: 16px !important;
 .edit-link {
     display: none !important;
 }
+.page-slug-sponsors .wcorg-sponsors{
+        margin-top: 40px;
+}
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-diamond h2, .wcorg-sponsor-level-silver h2{
+    background: #F5876E;
+    padding: 15px 40px;
+    color: #FFF;
+    border-radius: 70px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.wcorg-sponsor-level-gold h2{
+    background:gold;
+}
+.wcorg-sponsor-level-silver h2{
+    background:#47ABE5;
+}
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-diamond .wcorg-sponsor h3, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-silver .wcorg-sponsor h3, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor h3{
+    display: none;
+}
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-diamond .wcorg-sponsor .wcorg-sponsor-description, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-silver .wcorg-sponsor .wcorg-sponsor-description, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor .wcorg-sponsor-description{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor .wcorg-sponsor-description{
+width: 29%;
+}
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-diamond .wcorg-sponsor .wcorg-sponsor-description img, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-silver .wcorg-sponsor .wcorg-sponsor-description img, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor .wcorg-sponsor-description img{
+        border: 1px solid #eee;
+    transition: all ease-in-out .5s;
+}
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-diamond .wcorg-sponsor .wcorg-sponsor-description img:hover, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-silver .wcorg-sponsor .wcorg-sponsor-description img:hover, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor .wcorg-sponsor-description img:hover{
+    border-color: #29b220;
+}
