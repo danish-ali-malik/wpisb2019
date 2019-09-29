@@ -412,14 +412,24 @@ width: 14%;
 /* Event Buttons */
 .event-buttons {
     list-style-type: none;
+    text-align: center;
 }
 .event-buttons li {
     display: inline-block;
-    width: 100px;
+    width: 110px;
     height: 100px;
     background: #2ab220;
     border-radius: 5px;
     text-align: center;
+}
+.event-buttons li a {
+    color: #ffffff;
+}
+.event-buttons li:hover  {
+    background-color: #1c9613;
+}
+.event-buttons li:hover a, .event-buttons li a:hover {
+    color: #ffffff;
 }
 .event-buttons li .eb-icon {
     display: block;
