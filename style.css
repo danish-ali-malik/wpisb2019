@@ -535,3 +535,17 @@ width: 14%;
 #primary #panel2 .panel-content .wrap {
     max-width: 1200px !important;
 }
+/* footer */
+.site-footer .footer-widget-1{
+width: 100% !important;
+text-align: center;
+}
+.site-footer .footer-widget-1 h2.widget-title {
+    position: relative;
+    font-size: 28px !important;
+    text-align: center;
+    font-weight: bold;
+}
+.site-footer .footer-widget-1 p{
+    font-size: 18px;
+}
