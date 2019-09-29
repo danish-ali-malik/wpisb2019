@@ -153,8 +153,8 @@
 .home .content-area .entry-header .entry-title{
         font-size: 30px;
 }
-.what-to-expect {
-    margin-bottom: 20px;
+.home .entry-content > p + .what-to-expect {
+    margin-top: 50px;
 }
 .what-to-expect .wp-block-image img{
     max-width: 50%;
