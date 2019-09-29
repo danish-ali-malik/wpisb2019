@@ -123,7 +123,16 @@
     content: "\f017";
 }
 #top-menu > li:nth-child(4) > a:before {
-    content: "\f125";
+    content: "\f004";
+}
+#top-menu > li:nth-child(5) > a:before {
+    content: "\f0a1";
+}
+#top-menu > li:nth-child(6) > a:before {
+    content: "\f0c0";
+}
+#top-menu > li:last-child a:before {
+    content: "\f145";
 }
 .home .content-area .entry-header .entry-title{
     font-size: 30px;
