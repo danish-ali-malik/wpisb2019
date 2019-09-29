@@ -541,10 +541,22 @@ width: 100% !important;
 text-align: center;
 }
 .site-footer .footer-widget-1 h2.widget-title {
-    position: relative;
+       position: relative;
     font-size: 28px !important;
     text-align: center;
     font-weight: bold;
+    border: none;
+    margin-bottom: 10px;
+
+}
+.site-footer .footer-widget-1 h2.widget-title:after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 3px;
+    background: #29b220;
 }
 .site-footer .footer-widget-1 p{
     font-size: 18px;
