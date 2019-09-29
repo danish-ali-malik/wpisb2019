@@ -539,6 +539,9 @@ width: 14%;
 .site-footer{
         background: #29b220;
 }
+.site-footer .widget{
+    padding-bottom: .5em;
+}
 .site-footer .wrap{
     color: #fff;
     max-width: 1150px;
@@ -550,6 +553,7 @@ text-align: center;
 .site-footer .footer-widget-1 p
 {
         font-size: 24px;
+            margin-bottom: 0;
 }
 .site-footer .footer_logo a, .site-info a{
 box-shadow: none;
@@ -573,4 +577,7 @@ box-shadow: none;
 }
 .site-footer a, .site-footer a:hover{
     box-shadow: none !important;
+}
+.site-footer .jetpack_widget_social_icons ul{
+    margin: 0;
 }
