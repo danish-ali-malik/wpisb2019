@@ -79,7 +79,7 @@
 .custom-header{
 	margin-bottom: 0 !important;
 }
-.site-header .main-navigation #top-menu > a {
+.site-header .main-navigation #top-menu li > a {
     padding: 15px 25px;
     font-size: 14px;
 }
