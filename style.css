@@ -494,6 +494,7 @@ width: 14%;
 .wcpt-schedule td
 {
         padding: 0.9em;
+        padding-left: 0 !important;
 }
 
 /* Event Buttons */
