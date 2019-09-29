@@ -445,7 +445,7 @@ width: 14%;
     margin-bottom: 30px;
 }
 
-.page-slug-sponsors .wcorg-sponsor-level-gold h2 {
+.page-slug-sponsors .wcorg-sponsor-level-gold h2, .page-slug-sponsors .wcorg-sponsor-level-silver h2, .page-slug-sponsors .wcorg-sponsor-level-diamond h2 {
     background: gold;
     padding: 15px 40px;
     color: #FFF;
@@ -454,7 +454,12 @@ width: 14%;
     text-transform: uppercase;
     font-weight: bold;
 }
-
+.page-slug-sponsors .wcorg-sponsor-level-silver h2{
+     background:#47ABE5;
+}
+.page-slug-sponsors .wcorg-sponsor-level-diamond h2{
+     background:#F5876E;
+}
 .page-slug-sponsors .wcorg-sponsor-level-silver-sponser {
     margin-bottom: 30px;
 }
