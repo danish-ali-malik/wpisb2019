@@ -372,7 +372,7 @@ font-size: 16px !important;
 .page-slug-sponsors .wcorg-sponsors{
         margin-top: 40px;
 }
-.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-diamond h2, .wcorg-sponsor-level-silver h2{
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-diamond h2, .wcorg-sponsor-level-silver h2, .wcorg-sponsor-level-gold h2{
     background: #F5876E;
     padding: 15px 40px;
     color: #FFF;
