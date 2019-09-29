@@ -487,7 +487,18 @@ width: 14%;
     text-transform: uppercase;
     font-weight: bold;
 }
-
+.wcpt-schedule thead th{
+        padding-bottom: 0.5em;
+    border-color: #29b220;
+    font-size: 18px;
+}
+.wcpt-schedule .wcpt-time{
+        color: #29b220;
+}
+.wcpt-schedule td
+{
+        padding: 0.9em;
+}
 
 /* Event Buttons */
 .event-buttons {
