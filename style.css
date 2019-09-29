@@ -380,3 +380,6 @@ font-size: 16px !important;
 .tix_tickets_table tbody tr td.tix-column-remaining{
     text-align: center;
 }
+.edit-link {
+    display: none;
+}
