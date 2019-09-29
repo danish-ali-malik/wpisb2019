@@ -523,3 +523,8 @@ width: 14%;
 .event-buttons li .eb-title {
     display: block;
 }
+
+/* Volunteers */
+#primary #panel2 .panel-content .wrap {
+    max-width: 100% !important;
+}
