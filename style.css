@@ -596,3 +596,29 @@ width: 100% !important;
 .wp-block-button__link:hover{
     opacity: .9;
 }
+
+.site-footer .widget_blog_subscription{
+      margin-bottom: 20px;  
+}
+.site-footer .widget_blog_subscription .widget-title{
+    color: #fff;
+    margin: 0;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: none;
+}
+.site-footer .widget_blog_subscription form p{
+font-size: 17px;
+    margin-bottom: 10px;
+}
+.site-footer .widget_blog_subscription form input[type="email"]{
+    width: 40%;
+    float: none;
+    margin: 0 auto;
+}
+.site-footer .widget_blog_subscription form button{
+        background: #fff;
+    color: #29b220;
+    margin-top: 10px;
+}
