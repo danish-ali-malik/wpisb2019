@@ -83,7 +83,7 @@
     padding: 15px 25px;
     font-size: 14px;
 }
-.site-header .main-navigation #top-menu li:last-child {
+.site-header .main-navigation #top-menu li:last-child a {
     color: #2ab220 !important;
     background-color: #ffffff;
 }
