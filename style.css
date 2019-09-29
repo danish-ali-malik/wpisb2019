@@ -633,5 +633,11 @@ font-size: 17px;
 }
 
 .site-footer #subscribe-submit button {
-    background-color: #10520b !important;
+    color: #ffffff;
+    background-color: #10520b;
+}
+
+/* Tickets Claim Button */
+#tix .tix-submit input[type="submit"]{
+    padding: 20px;   
 }
