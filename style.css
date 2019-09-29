@@ -92,9 +92,9 @@
 }
 .site-header .main-navigation a:hover, .site-header .navigation-top .sub-menu a:hover
 {
-	    color: #fff;
+	color: #fff;
     background-color: #001d38;
-	   -webkit-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
     -moz-transition:    all .2s ease-in-out;
     -o-transition:      all .2s ease-in-out;
     -ms-transition:     all .2s ease-in-out;
@@ -103,60 +103,27 @@
 .site-navigation-fixed.navigation-top{
 	position: fixed !important;
 }
-#top-menu > li:first-child:before {
-    content: "\f102";
-    font-family: Dashicons;
+#top-menu > li:before {
+    font-family: FontAwesome;
     font-size: 18px;
     color: #FFFFFF;
     position: absolute;
-        top: 18px;
+    top: 18px;
     left: 6px;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
+}
+#top-menu > li:first-child:before {
+    content: "\f015";
 }
 #top-menu > li:nth-child(2) > a:before {
     content: "\f348";
-    font-family: Dashicons;
-    font-size: 18px;
-    color: #FFFFFF;
-    position: absolute;
-        top: 18px;
-    left: 6px;
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
 }
-/* #top-menu > li:nth-child(3) > a:before {
-    content: "\f469";
-    font-family: Dashicons;
-    font-size: 18px;
-    color: #FFFFFF;
-    position: absolute;
-    top: 10px;
-    left: -5px;
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
-} */
 #top-menu > li:nth-child(3) > a:before {
     content: "\f307";
-    font-family: Dashicons;
-    font-size: 18px;
-    color: #FFFFFF;
-    position: absolute;
-        top: 18px;
-    left: 6px;
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
 }
 #top-menu > li:nth-child(4) > a:before {
     content: "\f125";
-    font-family: Dashicons;
-    font-size: 18px;
-    color: #FFFFFF;
-    position: absolute;
-      top: 18px;
-    left: 6px;
-    font-weight: normal;
-    -webkit-font-smoothing: antialiased;
 }
 .home .content-area .entry-header .entry-title{
     font-size: 30px;
