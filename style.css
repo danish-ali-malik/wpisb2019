@@ -416,11 +416,16 @@ width: 14%;
 }
 .event-buttons li {
     display: inline-block;
+    margin-left: 10px;
     width: 110px;
     height: 100px;
     background: #2ab220;
     border-radius: 5px;
     text-align: center;
+    transition-duration: .3s;
+}
+.event-buttons li:first-child {
+    margin-left: 0;
 }
 .event-buttons li a {
     color: #ffffff;
