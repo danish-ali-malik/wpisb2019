@@ -153,6 +153,9 @@
 .home .content-area .entry-header .entry-title{
         font-size: 30px;
 }
+.what-to-expect {
+    margin-top: 50px;
+}
 .what-to-expect .wp-block-image img{
     max-width: 50%;
     float: none;
@@ -160,10 +163,11 @@
     display: table;
 }
 .what-to-expect .wp-block-image figcaption{
-font-size: 17px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: normal;
     font-style: normal;
     text-align: center;
+    text-transform: uppercase;
 }
 .single .entry-meta, .single .entry-footer, .single .post-navigation{
     display: none;
