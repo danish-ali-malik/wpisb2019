@@ -79,6 +79,14 @@
 .custom-header{
 	margin-bottom: 0 !important;
 }
+.site-header .main-navigation #top-menu > a {
+    padding: 15px 25px;
+    font-size: 14px;
+}
+.site-header .main-navigation #top-menu li:last-child {
+    color: #2ab220;
+    background-color: #ffffff;
+}
 .site-header .navigation-top .sub-menu a{
 	color: #222;
 }
