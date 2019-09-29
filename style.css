@@ -593,3 +593,6 @@ width: 100% !important;
 .single .site-content .widget-area{
     display: none !important;
 }
+.wp-block-button__link:hover{
+    opacity: .9;
+}
