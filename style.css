@@ -398,6 +398,9 @@ font-size: 16px !important;
 .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor .wcorg-sponsor-description{
 width: 29%;
 }
+.page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-silver .wcorg-sponsor .wcorg-sponsor-description{
+width: 14%;
+}
 .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-diamond .wcorg-sponsor .wcorg-sponsor-description img, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-silver .wcorg-sponsor .wcorg-sponsor-description img, .page-slug-sponsors .wcorg-sponsors .wcorg-sponsor-level-gold .wcorg-sponsor .wcorg-sponsor-description img{
         border: 1px solid #eee;
     transition: all ease-in-out .5s;
