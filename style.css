@@ -103,7 +103,7 @@
 .site-navigation-fixed.navigation-top{
 	position: fixed !important;
 }
-#top-menu > li:before {
+#top-menu > li a:before {
     font-family: FontAwesome;
     font-size: 18px;
     color: #FFFFFF;
