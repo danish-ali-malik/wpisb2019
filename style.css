@@ -563,8 +563,14 @@ box-shadow: none;
     text-align: center;
     color: #fff;
 }
+.site-info a {
+    color: #fff;  
+}
 .site-footer .jetpack_widget_social_icons a{
     box-shadow: none;
     color: #fff;
     font-size: 20px;
+}
+.site-footer a, .site-footer a:hover{
+    box-shadow: none !important;
 }
