@@ -618,7 +618,20 @@ font-size: 17px;
     margin: 0 auto;
 }
 .site-footer .widget_blog_subscription form button{
-        background: #fff;
+    background: #fff;
     color: #29b220;
     margin-top: 10px;
+}
+
+.site-footer #subscribe-email {
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+}
+.site-footer #subscribe-submit {
+    display: inline-block;
+}
+
+.site-footer #subscribe-submit button {
+    background-color: #10520b !important;
 }
