@@ -445,47 +445,37 @@ width: 14%;
     margin-bottom: 30px;
 }
 
-.page-slug-sponsors .wcorg-sponsor-level-gold h2, .page-slug-sponsors .wcorg-sponsor-level-silver h2, .page-slug-sponsors .wcorg-sponsor-level-diamond h2 {
-    background: gold;
-    padding: 15px 40px;
+.page-slug-sponsors h2 {
+    position: relative;
+    padding: 10px 0;
     color: #FFF;
-    border-radius: 70px;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-}
-.page-slug-sponsors .wcorg-sponsor-level-silver h2{
-     background:#47ABE5;
-}
-.page-slug-sponsors .wcorg-sponsor-level-diamond h2{
-     background:#F5876E;
-}
-.page-slug-sponsors .wcorg-sponsor-level-silver-sponser {
-    margin-bottom: 30px;
+    border-radius: 0;
+    z-index: 10;
 }
 
-.page-slug-sponsors .wcorg-sponsor-level-silver-sponser h2 {
-    background: #47ABE5;
-    padding: 15px 40px;
-    color: #FFF;
-    border-radius: 70px;
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: bold;
+.wcorg-sponsors h2:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: calc(50% - 100px);
+    background: #2ab220;
+    width: 200px;
+    height: 50px;
+    z-index: -1;
+    border-radius: 3px;
 }
-
-.page-slug-sponsors .wcorg-sponsor-level-community {
-    margin-bottom: 30px;
-}
-
-.page-slug-sponsors .wcorg-sponsor-level-community h2 {
-    background: #8dc39f;
-    padding: 15px 40px;
-    color: #FFF;
-    border-radius: 70px;
-    text-align: left;
-    text-transform: uppercase;
-    font-weight: bold;
+.wcorg-sponsors h2:after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #2ab220;
+    z-index: -1;
 }
 .wcpt-schedule thead th{
         padding-bottom: 0.5em;
