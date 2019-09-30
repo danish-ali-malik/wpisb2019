@@ -641,3 +641,17 @@ font-size: 17px;
 #tix .tix-submit input[type="submit"]{
     padding: 20px;   
 }
+@media only screen and (max-width: 768px) {
+    .site-header .main-navigation a{
+        color: #000;
+    }
+    .page-slug-speakers .wordcamp-speakers .wordcamp-image__avatar-container, .wordcamp-post-list .wordcamp-post-list__post .wordcamp-image__avatar-container{
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .event-buttons li, .event-buttons li:first-child{
+       margin: 10px !important; 
+    }
+
+}    
