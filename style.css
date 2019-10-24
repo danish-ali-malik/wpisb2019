@@ -320,7 +320,7 @@ float: left;
     width: 100%;
 }
 .tix-attendee-list li{
-         height: auto !important;
+    min-height: 150px !important;
 }
 .tix-attendee-list li img{
      float: none !important;
@@ -635,6 +635,12 @@ font-size: 17px;
 .site-footer #subscribe-submit button {
     color: #ffffff;
     background-color: #10520b;
+}
+.closed-wrap{
+    text-align: center;
+    background: #29b220;
+    padding: 20px 0;
+    color: #fff;
 }
 
 /* Tickets Claim Button */
