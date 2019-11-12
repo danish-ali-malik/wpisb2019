@@ -113,6 +113,9 @@
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
+.single-featured-image-header{
+        padding: 30px;
+}
 #top-menu > li:first-child a:before {
     content: "\f015";
 }
